@@ -36,7 +36,7 @@ public function newsave(Request $request)
 	 $data = new produitM();
 
 
-	  $data->libellePdt = $request->txtLib;
+	  $data->libellePdt = $request->txtLib; 
 	  $data->prixPdt = $request->txtPrix;
 	  $data->stockPdt = $request->txtStock;
 
